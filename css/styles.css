@@ -1,5 +1,51 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+  }
 /* Header */
-
+.header__wrapper {
+    width: 1144px;
+    height: 39px;
+    display: flex;
+    margin-top: 39px;
+    margin-left: 176px;
+  }
+.logo{
+    width: 36px;
+    height: 39px;
+}
+.header__center{
+    width: 394px;
+    height: 19px;
+    /* text-align: center; */
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    margin:auto 176px;
+    /* margin-top: 0; */
+    /* margin-left: 176px; */
+  }
+.header__right{
+    width: 138px;
+    height: 18px;
+    /* text-align: center; */
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    margin:auto 30px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+  h1{
+    width: 45px;
+    height: 26px;
+    margin: auto 0;
+    font-size:22px;
+  }
 /*Hero Aira  */
 
 /* Quality product  */
