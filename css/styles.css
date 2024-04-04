@@ -1,23 +1,11 @@
-  @font-face {
-    font-family: Roboto; /* Гарнитура шрифта */
-    src: url(/assets/font/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
-   }
-body {
-    background: #f5f6f7;
-    color: #1b1b32;
-    font-family: Roboto;
-    margin: 0;
-    background-image: url(/assets/img/hero_aria_rectangle.png);
-    background-repeat: no-repeat;
-    background-position:top right;
-}
+
 
 /* Header */
 .header__wrapper {
     width: 80%;
     height: 39px;
     display: flex;
-    top: 0;
+    margin-top: 31px;
     margin-left: 10em;
     
   }
