@@ -6,12 +6,64 @@
 body{
   font-family: "Roboto";
 }
-
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /* Header */
 
 /*Hero Aira  */
 
 /* Quality product  */
+.quality{
+  height: 275px;
+  margin-bottom: 113px;
+}
+.quality__wrapper{
+  width: 1140px;
+  height: 275px;
+  margin: auto auto;
+}
+
+.quality__items{
+  display: flex;
+ /* text-align: center;*/
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+
+}
+.quality__img{
+  height: 36px;
+  width: 36px;
+}
+
+.quality__item{
+  text-align: center;
+  width: 360px;
+  height: 241px;
+  margin: 25px 40px 25px 18px;
+  border-radius: 8px;
+  border: solid #e4e4e4;
+  box-shadow: #666463;
+  border-width: 0.5px;
+
+
+}
+.quality__tittle{
+  font-family: "poppins";
+  margin-bottom: 11px;
+}
+
+.quality__copy{
+  font-family: "roboto";
+  font-size: 16px;
+}
+
+.quality__link{
+  font-family: "roboto";
+}
 
 /* Popular product  */
 
