@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Roboto";
   src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -10,6 +11,7 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
 
 /* Header */
 .header__wrapper {
@@ -110,12 +112,238 @@ height: 131px;
   margin-left: -350px;
 }
 /* Quality product  */
+.quality{
+  height: 275px;
+  margin-bottom: 113px;
+}
+.quality__wrapper{
+  width: 1140px;
+  height: 275px;
+  margin: auto auto;
+}
+
+.quality__items{
+  display: flex;
+ /* text-align: center;*/
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+
+}
+.quality__img{
+  height: 36px;
+  width: 36px;
+}
+
+.quality__item{
+  text-align: center;
+  width: 360px;
+  height: 241px;
+  margin: 25px 40px 25px 18px;
+  border-radius: 8px;
+  border: solid #e4e4e4;
+  box-shadow: #666463;
+  border-width: 0.5px;
+
+
+}
+.quality__tittle{
+  font-family: "poppins";
+  margin-bottom: 11px;
+}
+
+.quality__copy{
+  font-family: "roboto";
+  font-size: 16px;
+}
+
+.quality__link{
+  font-family: "roboto";
+}
 
 /* Popular product  */
 
+.popular_products{
+    width: 1140px;
+    height: 1176px;
+}
+.popular_products__title,.popular_products__copy{
+    text-align: center;
+}
+.popular_products__first-img-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.popular_products__img-content1-1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf2eb;
+  width: 555px;
+  height: 420px;
+  border-radius: 20px;
+}
+#cnt1-1{
+  width: 373px;
+  height: 278px;
+}
+.popular_products__img-content1-2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf2eb;
+  width: 555px;
+  height: 420px;
+  border-radius: 20px;
+}
+#cnt1-2{
+  width: 304px;
+  height: 304px;
+}
+.popular_products__second-img-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+}
+.img-block2{
+  background-color: #fcf2eb;
+  width: 360px;
+  height: 273px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+#cnt2-1{
+  width: 292px;
+  height: 292px;
+}
+#cnt2-2{
+  width: 195px;
+  height: 177px;
+}
+#cnt2-3{
+  width: 262px;
+  height: 170px;
+}
+#view-all-details{
+  border: 1px solid;
+  background-color: white;
+  color:orange;
+  border-radius: 30px;
+  width: 185px;
+  height: 48px;
+  margin:30px auto;
+  display: block;
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+  color:orange;
+}
 /* Dog care  */
-
+.dog__wrapper{
+  width: 1248.35px;
+  height: 640.96px;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+.dog__wrapper_item{
+  width: 746.25px;
+  height: 640.96px;
+}
+.dog__copy:first-of-type{
+  color:orange;
+  font-size: larger;
+  font-size: 16px;
+}
+.dog__text-block{
+  width: 486px;
+  height: 174px;
+  margin: auto;
+  padding-bottom:134px;
+}
+.dog__tittle{
+  font-size: 32.25px;
+  font-weight: bold;
+}
+#dog-copy-txt{
+  font-size: 16px;
+  color:#666463;
+}
+.dog__button-block{
+  margin-top: 45px;
+ 
+}
+#dog__drtails{
+  border: none;
+  background-color: orange;
+  height: 48px;
+  width: 189px;
+  border-radius: 30px;
+  color:white;
+  font-size: 1em;
+}
+#dog__appointment{
+  border: 1px solid;
+  border-color: orange;
+  background-color: white;
+  height: 48px;
+  width: 139px;
+  border-radius: 30px;
+  color:orange;
+  margin-left:30px;
+  font-size: 1em;
+}
 /* Subscription */
+.subscription__wrapper{
+  width: 1140px;
+  height: 809px;
+  margin:auto;
+}
+.subscription__text-block{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  height: 93px;
+  width: 505px;
+  font-size: 25px;
+  margin: 100px auto;
+}
+.subscription__items{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subscription__items p{
+  color:#666463;
+}
+.subscription__item{
+  text-align: center;
+}
+.subscription__button{
+  display: block;
+  border: none;
+  background-color: orange;
+  height: 48px;
+  width: 189px; 
+  border-radius: 30px;
+  margin:40px auto;
+  color:white; 
+  font-size: 1em;
+}
+
+
 
 /* Gallery  */
 
