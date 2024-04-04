@@ -358,3 +358,68 @@ a{
 /* Contact */
 
 /* Footer */
+.footer__wrapper{
+  /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background-image: url(/assets/img/footer_rectangle.svg); /* Цвет фона */
+  background-repeat: no-repeat;
+  margin-bottom: -16px;
+  padding: 0% 0%;
+  background-size: 100%;
+  color: #fff; /* Цвет текста */
+  width: 100%;
+}
+.footer__logo{
+  text-align: center;
+  padding-top: 1%;
+}
+#footer__logo-image{
+  width: 48px;
+  height: 51px;
+}
+.footer__title{
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-top: -1%;
+}
+.footer__links-image{
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer__image{
+  width: 40px;
+  height: 40px;
+}
+.footer__links-block{
+  width: 100%;
+  /* flex-direction: row; */
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left{
+  margin-top: -10em;
+  margin-left: 5em;
+}
+
+.footer__right{
+  margin-top: -10em;
+  margin-right: 10em;
+
+}
+.footer__list{
+  list-style-type:none;
+}
+.footer__lnk{
+  color: white;
+  line-height: 3;
+  cursor:crosshair ;
+}
+.footer__orange{
+  color:#E27B3A;
+}
