@@ -7,7 +7,57 @@
 /* Popular product  */
 
 /* Dog care  */
-
+.dog__wrapper{
+  width: 1248.35px;
+  height: 640.96px;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+.dog__wrapper_item{
+  width: 746.25px;
+  height: 640.96px;
+}
+.dog__copy:first-of-type{
+  color:orange;
+  font-size: larger;
+  font-size: 16px;
+}
+.dog__text-block{
+  width: 486px;
+  height: 174px;
+  margin: auto;
+  padding-bottom:134px;
+}
+.dog__tittle{
+  font-size: 32.25px;
+  font-weight: bold;
+}
+#dog-copy-txt{
+  font-size: 16px;
+  color:#666463;
+}
+.dog__button-block{
+  margin-top: 45px;
+}
+#dog__drtails{
+  border: none;
+  background-color: orange;
+  height: 48px;
+  width: 189px;
+  border-radius: 30px;
+  color:white;
+}
+#dog__appointment{
+  border: 1px solid;
+  border-color: orange;
+  background-color: white;
+  height: 48px;
+  width: 139px;
+  border-radius: 30px;
+  color:orange;
+  margin-left:30px;
+}
 /* Subscription */
 
 /* Gallery  */
