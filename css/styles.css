@@ -2,21 +2,24 @@
     font-family: Roboto; /* Гарнитура шрифта */
     src: url(/assets/font/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
    }
-   body {
+body {
     background: #f5f6f7;
     color: #1b1b32;
     font-family: Roboto;
-
     margin: 0;
-  }
+    background-image: url(/assets/img/hero_aria_rectangle.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
 
 /* Header */
 .header__wrapper {
-    width: 1144px;
+    width: 80%;
     height: 39px;
     display: flex;
-    margin-top: 39px;
-    margin-left: 176px;
+    top: 0;
+    margin-left: 10em;
+    
   }
 .logo{
     width: 36px;
@@ -53,7 +56,60 @@ a{
     font-size:22px;
   }
 /*Hero Aira  */
+.hero{
+  width: 1330px;
+  height: 693px;
+  margin-left:0px;
+  border:1px;
+  margin-top:0;
+}
+.hero__wrapper{
+  display: flex;
+width: 80%;
+height: 338px;
+justify-content:space-between;
+margin-left: 10em;
+}
+.hero__text-block{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10em;
+}
+.hero__title{
+font-size: 100px;
+width: 613px;
+height: 131px;
+}
+.hero__button-block{
+  padding-top: 10em;
+  width: 45%;
+  justify-content:space-between;
+  display: flex;
+}
+.hero__button{
+  border-radius: 24px;
+  font-size: 16px;
+  width: 123px;
+  height: 48px;
+  border: 2px solid #E27B3A;
+}
+#buy{
+  background-color: #E27B3A;
+  
+}
+#buy_a{
+  color: #f5f6f7;
+}
+#details_a{
+  color: #E27B3A;
+}
 
+
+#hero__image{
+  width: 916px;
+  height: 611px;
+  margin-left: -350px;
+}
 /* Quality product  */
 
 /* Popular product  */
