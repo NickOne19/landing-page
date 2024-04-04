@@ -11,10 +11,106 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
+
 /* Header */
-
+.header__wrapper {
+    width: 80%;
+    height: 39px;
+    display: flex;
+    margin-top: 31px;
+    margin-left: 10em;
+    
+  }
+.logo{
+    width: 36px;
+    height: 39px;
+}
+.header__center{
+    width: 394px;
+    height: 19px;
+    /* text-align: center; */
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    margin:auto 176px;
+    /* margin-top: 0; */
+    /* margin-left: 176px; */
+  }
+.header__right{
+    width: 138px;
+    height: 18px;
+    /* text-align: center; */
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    margin:auto 30px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+  h1{
+    width: 45px;
+    height: 26px;
+    margin: auto 0;
+    font-size:22px;
+  }
 /*Hero Aira  */
+.hero{
+  width: 1330px;
+  height: 693px;
+  margin-left:0px;
+  border:1px;
+  margin-top:0;
+}
+.hero__wrapper{
+  display: flex;
+width: 80%;
+height: 338px;
+justify-content:space-between;
+margin-left: 10em;
+}
+.hero__text-block{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10em;
+}
+.hero__title{
+font-size: 100px;
+width: 613px;
+height: 131px;
+}
+.hero__button-block{
+  padding-top: 10em;
+  width: 45%;
+  justify-content:space-between;
+  display: flex;
+}
+.hero__button{
+  border-radius: 24px;
+  font-size: 16px;
+  width: 123px;
+  height: 48px;
+  border: 2px solid #E27B3A;
+}
+#buy{
+  background-color: #E27B3A;
+  
+}
+#buy_a{
+  color: #f5f6f7;
+}
+#details_a{
+  color: #E27B3A;
+}
 
+
+#hero__image{
+  width: 916px;
+  height: 611px;
+  margin-left: -350px;
+}
 /* Quality product  */
 .quality{
   height: 275px;
