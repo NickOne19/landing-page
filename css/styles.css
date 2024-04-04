@@ -1,10 +1,16 @@
 
 @font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-}
-body{
-  font-family: "Roboto";
+  font-family: Roboto; /* Гарнитура шрифта */
+  src: url(/assets/font/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+ }
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Roboto;
+  margin: 0;
+  background-image: url(/assets/img/hero_aria_rectangle.png);
+  background-repeat: no-repeat;
+  background-position:top right;
 }
 .poppins-regular {
   font-family: "Poppins", sans-serif;
