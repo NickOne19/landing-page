@@ -356,7 +356,18 @@ a{
 /* Testimonial */
 
 /* Contact */
-.contact{
+/*.contact{
+  /* background-image: url(/assets/img/contact-rectangleBlue.png);
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 346px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+  color: #FFFFFF; */
+
+/* .contact__wrapper{
   background-image: url(/assets/img/contact-rectangleBlue.png);
   background-repeat: no-repeat;
   width: 1140px;
@@ -386,7 +397,7 @@ a{
 .contact__wrapper{
   display: flex;
 }
-.send-btn{
+.contact__send-btn{
   background-color: #E27B3A;
   font-family: roboto;
   font-size: 18px;
@@ -394,12 +405,74 @@ a{
   border-radius: 0px 10px 10px 0px;
 
 }
-
 .contact__form{
+  display: flex;
+}
+/* .contact__form{
   display: flex;
   border-radius: 10px 0px 0px 10px;
   width: 487.44px;
   height: 70px;
+} */
+
+/* .contact__send{
+  width: 487.44px;
+  height: 70px;
+}
+
+.contact__text{
+  height: 30px;
+  width: 372px;
+} */ 
+
+
+.contact {
+}
+.contact__wrapper {
+  background-image: url(/assets/img/contact-rectangleBlue.png);
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 346px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+  color: #FFFFFF;
+}
+.contact__text-block {
+  padding: 102px 648px 171.91px 68px;
+  width: 423px;
+  height: 142px;
+  font-family: poppins;
+  color: #FFFFFF; 
+}
+.contact__title {
+}
+.contact__copy {
+}
+.contact__form {
+  
+}
+.contact__send {
+  display: flex;
+  width: 487px;
+  height: 70px;
+}
+.contact__text {
+  width: 372px;
+  height: 30px;
+  font-family: poppins;
+  color: #FFFFFF; 
+}
+.contact__send-btn {
+  width: 115px;
+  height: 36px;
+  margin-left: -2px;
+  background-color: #E27B3A;
+  font-family: roboto;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
 }
 
 /* Footer */
