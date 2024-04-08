@@ -354,7 +354,36 @@ a{
 /* Gallery  */
 
 /* Testimonial */
-
+.testimonial__wrapper{
+  width: 620px;
+  height: 370px;
+  margin: auto;
+}
+.testimonial__card{
+  
+  background-color: #fff;
+  border-radius: 2%;
+  box-shadow: -10px -10px 5px 1px rgb(202, 201, 201);
+  padding: 7%;
+  
+}
+.testimonial__copy{
+  text-align: center;
+  font-size: 32.25px;
+}
+.marks{
+  opacity: 0.25;
+}
+.testimonial__img-block{
+  display: flex;
+  align-items: center;
+}
+.testimonial__img-block .marks {
+  margin-right: 40%; /* Отступ между первой и второй картинкой */
+}
+.testimonial__title{
+  font-size: 16px;
+}
 .contact {
 }
 .contact__wrapper {

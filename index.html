@@ -213,7 +213,7 @@
       <div class="testimonial__card">
         <div class="testimonial__img-block">
           <img src="/assets/img/testimonial__image-marks.svg" alt="marks" class="marks">
-          <img src="/assets/img/testimonial__image1.svg" alt="People">
+          <img class="people" src="/assets/img/testimonial__image1.svg" alt="People">
         </div>
         <div class="testimonial__title">
           <p class="copy">A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog.Dogs leave paw prints forever on our hearts.</p>
@@ -224,6 +224,8 @@
         <div class="testimonial__info">
           <h3>Margaret Street</h3>
           <p>UI&UX Designer</p>
+        </div>
+        <div class="testimonial__img-block">
           <img src="/assets/img/testimonial__image-marks1.svg" alt="" class="mark_rigth">
         </div>
       </div>
@@ -248,23 +250,30 @@
   <footer>
     <div class="footer__wrapper"> 
       <div class="footer__logo">
-        <img src="/assets/img/footer_image.svg" alt="footer logo">
+        <p><img id="footer__logo-image" src="/assets/img/footer_image.svg" alt="footer logo"></p>
         <h2 class="footer__title">Dog-product</h2>
+        <div class="footer__links-image">
+          <img class="footer__image" src="/assets/img/footer_facebook.png" alt="facebook">
+          <img class="footer__image" src="/assets/img/footer_site2.png" alt="site2">
+          <img class="footer__image" src="/assets/img/footer_twitter.png" alt="twitter">
+        </div>
       </div>
       <div class="footer__links">
-        <div class="footer__links-image">
-        </div>
         <div class="footer__links-block">
-          <ul class="footer__left">
-            <li><a href="#">Product & Policy</a></li>
-            <li><a href="#">Privacy & About</a></li>
-            <li><a href="#">Contact: alaminhossen.75bd@gmail.com</a></li>
-          </ul>
-          <ul class="footer__right">
-            <li><a href="#">Dog Care</a></li>
-            <li><a href="#">Privacy & Policy</a></li>
-            <li><a href="#">Popular Product</a></li>
-          </ul>
+          <div class="footer__left">
+            <ul class="footer__list">
+            <li><a class="footer__lnk" href="#">Product & Policy</a></li>
+            <li><a class="footer__lnk" href="#">Privacy & About</a></li>
+            <li><a class="footer__lnk" href="#">Contact: <span class="footer__orange">alaminhossen.75bd@gmail.com</span></a></li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <ul class="footer__list">
+            <li><a class="footer__lnk" href="#">Dog Care</a></li>
+            <li><a class="footer__lnk" href="#">Privacy & Policy</a></li>
+            <li><a class="footer__lnk" href="#">Popular Product</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
